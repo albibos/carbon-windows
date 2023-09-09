@@ -20,3 +20,12 @@ example = new Carbon({
 
 example.show();
 ```
+
+## Additional Functions
+The example to create a window uses a global variable of "example", so you can use it anywhere.
+Our current additional functions are:
+```js
+<global>.show();
+<global>.hide();
+```
+These will show/hide the window based on its current visiblity. Check the visibility by checking the opacity of the window.
