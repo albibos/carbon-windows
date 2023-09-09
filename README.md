@@ -6,6 +6,7 @@ First, link our js:
 ```html
 <script src="https://gitloaf.com/cdn/albibos/carbon-windows/main/window.min.js"></script>
 ```
+*all needed css is linked into your document head via our js*
 
 Then, you can create a  new window by doing:
 ```js
