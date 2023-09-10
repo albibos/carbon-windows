@@ -4,7 +4,7 @@ a simple dark themed window system
 ## Setup
 First, link our js:
 ```html
-<script src="https://gitloaf.com/cdn/albibos/carbon-windows/main/window.min.js"></script>
+<script src="https://gitloaf.com/cdn/albibos/carbon-windows/main/window.min.js" defer></script>
 ```
 *all needed css is linked into your document head via our js, there are no style classes that will affect your html but we do recommend checking over our css to ensure no problems arise. feel free to override our css but beware too many changes may make the window look odd.*
 
