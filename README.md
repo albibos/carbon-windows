@@ -17,7 +17,8 @@ example = new Carbon({
   url: url, // iframe url
   width: width, // width (duh)
   height: height, // height (duh)
-  gameid: gameid, // game id from gamevault or 3kh0-assets (file name)
+  gameid: gameid, // game id from gamevault or 3kh0-assets (file name) || OPTIONAL
+  server: server, // server (https://raw.githack.com/carbonsystems-dev/gamevault/main/, https://gitloaf.com/cdn/carbonsystems-dev/gamevault/main/) || OPTIONAL NOT NEEDED FOR GAMEID
 });
 
 example.show();
