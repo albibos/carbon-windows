@@ -2,7 +2,7 @@
 a simple dark themed window system
 
 ## Setup
-First, link our js:
+First, link our js (in your head tag):
 ```html
 <script src="https://gitloaf.com/cdn/albibos/carbon-windows/main/window.min.js" defer></script>
 ```
@@ -17,6 +17,7 @@ example = new Carbon({
   url: url, // iframe url
   width: width, // width (duh)
   height: height, // height (duh)
+  gameid: gameid, // game id from gamevault or 3kh0-assets (file name)
 });
 
 example.show();
@@ -28,5 +29,7 @@ Our current additional functions are:
 ```js
 <global>.show();
 <global>.hide();
+<global>.fullscreen();
+<global>.unfullscreen();
 ```
 These will show/hide the window based on its current visiblity. Check the visibility by checking the opacity of the window.
