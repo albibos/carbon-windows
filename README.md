@@ -28,8 +28,8 @@ example.show();
 The example to create a window uses a global variable of "example", so you can use it anywhere.
 Our current additional functions are:
 ```js
-<global>.show();
-<global>.hide();
+<global>.show(); // change opacity to 1
+<global>.hide(); // change opacity to 0
 <global>.fullscreen();
 <global>.unfullscreen();
 ```
