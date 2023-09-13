@@ -24,13 +24,30 @@ example = new Carbon({
 example.show();
 ```
 
-## Additional Functions
-The example to create a window uses a global variable of "example", so you can use it anywhere.
+## Functions
+The global is what you named the carbon window. For the above window, that would be "example".
 Our current additional functions are:
 ```js
 <global>.show(); // change opacity to 1
 <global>.hide(); // change opacity to 0
 <global>.fullscreen();
 <global>.unfullscreen();
+<global>.loadPlugin(js-file);
 ```
-These will show/hide the window based on its current visiblity. Check the visibility by checking the opacity of the window.
+
+## Plugins API
+These functions are partially limited to the api for plugins.
+```js
+<global>.api.show();
+<global>.api.hide();
+<global>.api.fullscreen();
+<global>.api.unfullscreen();
+<global>.api.addCustomCSS(css);
+<global>.api.setTitle(title);
+```
+### How to create Plugins
+To create a plugin, you must first load our functions, like so:
+```js
+const { addCustomCSS, show, close, fullscreen, setTitle } = window.parent.<global>.api;
+```
+Then you can enjoy our functions to their fullest! View our example plugin to see it in action, or go to our [showcase site](https://windows.albinus.gay).
