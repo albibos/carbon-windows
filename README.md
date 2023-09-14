@@ -10,7 +10,7 @@ First, link our js (in your head tag):
 
 Then, you can create a  new window by doing:
 ```js
-example = new Carbon({
+<global> = new Carbon({
   name: name, // name
   id: id, // element id
   type: type, // type: iframe or html
@@ -26,7 +26,7 @@ example.show();
 ```
 
 ## Functions
-The global is what you named the carbon window. For the above window, that would be "example".
+The global is what you named the carbon window.
 Our current additional functions are:
 ```js
 <global>.show(); // change opacity to 1
