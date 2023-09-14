@@ -13,8 +13,9 @@ Then, you can create a  new window by doing:
 example = new Carbon({
   name: name, // name
   id: id, // element id
-  type: type, // type, iframe or html (soon)
-  url: url, // iframe url
+  type: type, // type: iframe or html
+  url: url, // iframe url for iframe type
+  html: html, // html code for html type
   width: width, // width (duh)
   height: height, // height (duh)
   gameid: gameid, // game id from gamevault or 3kh0-assets (file name) || OPTIONAL
