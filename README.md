@@ -26,7 +26,7 @@ example.show();
 ```
 
 ## Functions
-The global is what you named the carbon window. Above we named the window "example", so you would replace <global> with example.
+The global is what you named the carbon window. Above we named the window "example", so you would replace "<global>" with example.
 Our current additional functions are:
 ```js
 <global>.show(); // change opacity to 1
